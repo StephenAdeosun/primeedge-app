@@ -43,9 +43,9 @@ const Navbar = () => {
       {/* Mobile Menu Dropdown */}
       {isOpen && (
         <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-[95%] max-w-[1200px] bg-white shadow-md rounded-2xl flex flex-col items-center py-4 space-y-4 md:hidden">
-          <a href="#" className="hover:text-purple-600">Solutions</a>
-          <a href="#" className="hover:text-purple-600">How it works</a>
-          <a href="#" className="hover:text-purple-600">Contact</a>
+          <a href="#services" className="hover:text-purple-600">Solutions</a>
+          <a href="#how-it-works" className="hover:text-purple-600">How it works</a>
+          <a href="#contact" className="hover:text-purple-600">Contact</a>
           <button className="bg-purple-600 text-white px-6 py-2 rounded-xl hover:bg-purple-700 transition">
             Book a Demo
           </button>

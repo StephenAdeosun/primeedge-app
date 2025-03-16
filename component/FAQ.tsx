@@ -4,10 +4,7 @@ import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 
 const faqs = [
-  {
-    question: "Do your AI Voice Agents integrate with my CRM & Booking System?",
-    answer: "Yes! Our AI voice agents seamlessly integrate with your CRM and booking system for efficient automation.",
-  },
+  
   {
     question: "Does it Sound Human-Like?",
     answer: "Absolutely! Our AI is designed to provide natural and human-like responses for a seamless experience.",

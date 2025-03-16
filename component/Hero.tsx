@@ -16,7 +16,7 @@ const Hero = () => {
       </p>
 
       {/* Heading */}
-      <h1 className="text-3xl md:text-5xl font-bold max-w-[710px] m-auto leading-[60px] relative z-10">
+      <h1 className="text-3xl md:text-5xl font-bold max-w-[710px] m-auto leading-tight md:leading-[60px] relative z-10">
       Automate Calls, <span className="bg-purple-100 text-purple-700 px-2 border-l-2">Engage Leads</span> and Scale Your Business Effortlessly  
         <br />
         
