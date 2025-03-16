@@ -70,7 +70,7 @@ const Services = () => {
 
                   {/* Get Started Button */}
                   <a
-                    href="#"
+                    href="https://calendly.com/primeedgeai/30min"
                     className="mt-4 text-white font-bold flex items-center gap-2 group transition-colors hover:text-gray-400"
                   >
                     Get Started
@@ -112,7 +112,7 @@ const Services = () => {
 
                 {/* Get Started Button */}
                 <a
-                  href="#"
+                  href="https://calendly.com/primeedgeai/30min"
                   className="mt-4 font-bold flex items-center gap-2 group transition-colors hover:text-gray-400"
                 >
                   Get Started

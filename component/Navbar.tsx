@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,9 +30,11 @@ const Navbar = () => {
 
         {/* Book a Demo Button */}
         <div className="hidden md:flex">
+            <Link href="https://calendly.com/primeedgeai/30min">
           <button className="bg-purple-600 cursor-pointer text-white max-w-[120px] text-sm px-4 py-2 rounded-xl hover:bg-purple-700 transition">
             Book a Demo
           </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -46,9 +49,13 @@ const Navbar = () => {
           <a href="#services" className="hover:text-purple-600">Solutions</a>
           <a href="#how-it-works" className="hover:text-purple-600">How it works</a>
           <a href="#contact" className="hover:text-purple-600">Contact</a>
+          <Link href="https://calendly.com/primeedgeai/30min">
           <button className="bg-purple-600 text-white px-6 py-2 rounded-xl hover:bg-purple-700 transition">
             Book a Demo
           </button>
+            </Link>
+          
+          
         </div>
       )}
     </nav>

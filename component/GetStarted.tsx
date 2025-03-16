@@ -23,7 +23,7 @@ const CTASection = () => {
       {/* CTA Buttons */}
       <div className="mt-6 flex flex-col sm:flex-row gap-4">
         {/* Free Consultation Button */}
-        <a href="#" className="flex items-center space-x-2 bg-purple-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-purple-800 transition">
+        <a href="https://calendly.com/primeedgeai/30min" className="flex items-center space-x-2 bg-purple-700 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-purple-800 transition">
           <PhoneCall className="w-5 h-5" />
           <span>Get a Free Consultation</span>
         </a>

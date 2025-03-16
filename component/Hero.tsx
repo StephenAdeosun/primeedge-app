@@ -25,11 +25,11 @@ const Hero = () => {
       {/* Buttons */}
       <div className="flex justify-center gap-4 mt-6 flex-wrap relative z-10">
         <Link
-          href="#"
+          href="https://calendly.com/primeedgeai/30min"
           className="bg-purple-600 text-white flex items-center gap-2 px-6 py-3 rounded-full font-medium hover:bg-purple-700 transition cursor-pointer"
         >
           <PhoneCall size={20} />
-          Book A Call
+          Book A Free Call
         </Link>
 
         <Link
