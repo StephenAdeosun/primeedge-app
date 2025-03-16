@@ -53,7 +53,7 @@ const FAQ = () => {
           <div key={index} className="bg-gray-100 rounded-lg cursor-pointer overflow-hidden transition-all duration-300">
             <button
               onClick={() => toggleFAQ(index)}
-              className="w-full flex justify-between cursor-pointer rounded-3xl items-center px-6 py-4 text-left text-lg font-medium"
+              className="w-full flex justify-between cursor-pointer rounded-3xl items-center px-6 py-4 text-left text-sm md:text-lg font-medium"
             >
               <span>{faq.question}</span>
               {openIndex === index ? (
