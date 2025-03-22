@@ -17,8 +17,8 @@ const testimonials = [
 
   },
   {
-    name: "Jane Doe", 
-    role: "CEO, Doe's Fashion", 
+    name: "EZEKIEL O.",  
+    role: "Medical Office", 
     text: "PrimeEdge AI's AI solutions have helped us automate our calls and increase our lead conversion rates by 45%. We are now able to focus on growing our business.",
     image: "/img/pic2.avif"
   }
