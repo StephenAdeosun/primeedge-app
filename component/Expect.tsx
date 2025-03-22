@@ -26,7 +26,7 @@ const Expectations = () => {
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <TrendingUp size={28} />
-            ~200%
+            ~250%
           </p>
           <p className="text-black font-medium text-lg mt-2">boost in appointments</p>
         </div>
@@ -35,7 +35,7 @@ const Expectations = () => {
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <Database size={28} />
-            +40%
+            +45%
           </p>
           <p className="text-black font-medium text-lg mt-2">boost in lead conversion </p>
         </div>
