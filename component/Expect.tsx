@@ -1,4 +1,5 @@
 import { PhoneCall, TrendingUp, Database } from "lucide-react";
+import Link from "next/link";
 
 const Expectations = () => {
   return (
@@ -16,16 +17,16 @@ const Expectations = () => {
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <PhoneCall size={28} />
-            ~99%
+            ~0%
           </p>
-          <p className="text-black font-medium text-lg mt-2">of calls automated</p>
+          <p className="text-black font-medium text-lg mt-2">missed calls</p>
         </div>
 
         {/* Card 2 */}
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <TrendingUp size={28} />
-            ~300%
+            ~30 x
           </p>
           <p className="text-black font-medium text-lg mt-2">boost in appointments</p>
         </div>
@@ -34,11 +35,12 @@ const Expectations = () => {
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <Database size={28} />
-            +45%
+            +40%
           </p>
-          <p className="text-black font-medium text-lg mt-2">in lead conversion rates</p>
+          <p className="text-black font-medium text-lg mt-2">boost in lead conversion </p>
         </div>
       </div>
+     
     </section>
   );
 };

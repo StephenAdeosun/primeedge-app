@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
@@ -24,7 +25,16 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-16 px-6">
+    <section className="pb-16 px-6">
+      <div className="mx-auto  w-full max-w-[400px] text-center">
+         <Link
+          href="#why-work-with-us"
+          className="bg-gray-100 mt-24 mx-auto text-purple-700 px-6 py-3 rounded-full font-medium hover:bg-purple-200 transition cursor-pointer"
+        >
+         Why work with us?
+        </Link>
+      </div>
+      
       <section className="py-16 px-6 text-center">
   {/* Label */}
   <div className="inline-block px-4 py-1 text-sm font-medium text-black bg-purple-100 rounded-full">
@@ -33,7 +43,7 @@ const Services = () => {
 
   {/* Heading */}
   <h2 className="text-4xl font-bold text-black mt-4">
-    How we will transform your business
+    How we will improve your business
   </h2>
 </section>
 

@@ -12,8 +12,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Your App Title",
-  description: "Your App Description",
+  title: "PrimeEdge AI",
+  description: "Automate Calls, Engage Leads and Scale Your Business Effortlessly",
 };
 
 export default function RootLayout({

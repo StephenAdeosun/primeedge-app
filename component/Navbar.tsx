@@ -17,7 +17,7 @@ const Navbar = () => {
                 <path d="M21 15V9a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 9v6a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4a2 2 0 0 0 1-1.73z"/>
               </svg>
             </span>
-            <span>PrimeEdge</span>
+            <span>PrimeEdge AI</span>
           </h2>
         </div>
 

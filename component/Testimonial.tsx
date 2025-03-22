@@ -3,33 +3,32 @@ import React from "react";
 
 const testimonials = [
   { 
-    name: "Alex Dougg", 
-    role: "Hotel Owner", 
-    text: "Lorem ipsum dolor sit amet consectetur. At sit nunc egestas vitae fermentum.",
-    image: "/img/pic2.avif" 
+    name: "Lush & Wellness ", 
+    role: "Columbia, MD", 
+    text: "PrimeEdge AI's Dr Wale and his team just set up my AI inbound and outbound calls. AI is now answering my calls and booking my appointments. I am impressed",
+    image: "/img/pic1.avif" 
 
   },
   { 
-    name: "Jane Smith", 
-    role: "CEO, Startup", 
-    text: "Interdum elementum felis viverra pretium nulla sed. Consequat libero auctor.",
+    name: " Akin O.", 
+    role: "CEO, Akin's Auto", 
+    text: "We saw instant improvements in lead generation and client engagement. The AI solutions work flawlessly, and the support is top-notch! A must-have for any business!",
     image: "/img/pic.avif" 
 
   },
-  { 
-    name: "John Doe", 
-    role: "Freelancer", 
-    text: "Amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    image: "/img/pic1.avif" 
-
-
-  },
+  {
+    name: "Jane Doe", 
+    role: "CEO, Doe's Fashion", 
+    text: "PrimeEdge AI's AI solutions have helped us automate our calls and increase our lead conversion rates by 45%. We are now able to focus on growing our business.",
+    image: "/img/pic2.avif"
+  }
+ 
  
 ];
 
 export default function TestimonialMarquee() {
   return (
-    <div className="relative bg-purple-50 w-full mt-[30px] py-24 md:mb-[84px]">
+    <div className="relative  w-full mt-[30px] py-24 md:mb-[84px]">
       {/* Header */}
       <div className="text-center max-w-[913px] mx-auto mb-[30px] mt-[14px]">
         <h2 className="text-[40px] font-[400] text-[#13134F]">Real Results, Real Impact</h2>
@@ -49,7 +48,7 @@ export default function TestimonialMarquee() {
         <div className="flex w-max animate-scroll space-x-8">
           {[...testimonials, ...testimonials].map((t, index) => (
             <div key={index} className="w-[26rem] h-[14rem] bg-white rounded-2xl p-8 min-w-[26rem] flex flex-col justify-between ">
-              <p className="text-[#13134F] text-lg">{t.text}</p>
+              <p className="text-[#13134F] text-md">{t.text}</p>
               <div className="flex items-center mt-6">
                 <img src={t.image} alt={t.name} className="w-14 h-14 rounded-full object-cover" />
                 <div className="ml-4">

@@ -29,7 +29,7 @@ const CTASection = () => {
         </a>
 
         {/* Project Inquiry Button */}
-        <a href="https://tally.so/r/mJMxoK" target="_blank" className="flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-gray-900 transition">
+        <a href="https://tally.so/r/mezZkk" target="_blank" className="flex items-center space-x-2 bg-black text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-gray-900 transition">
           <MessageSquare className="w-5 h-5" />
           <span>Tell us about your project</span>
         </a>

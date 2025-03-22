@@ -13,16 +13,16 @@ const Footer = () => {
               </span>
               <span className="text-purple-700 text-2xl font-semibold">PrimeEdge AI</span>
             </div>
-            <p className="text-sm text-gray-400">123 AI Street, Tech City, Innovation Hub</p>
-            <p className="text-sm text-gray-400">Email: primeedgeai@gmail.com</p>
-            <p className="text-sm text-gray-400">Phone: +1 443 7432 492</p>
+            <p className="text-sm text-gray-400">Elkridge, MD, USA</p>
+            {/* <p className="text-sm text-gray-400">Email: primeedgeai@gmail.com</p> */}
+            <p className="text-sm text-gray-400">Phone: +1 443 743 2492</p>
           </div>
   
           {/* Quick Links */}
           <nav className="flex flex-col space-y-2 text-sm">
             <a href="#" className="hover:text-white transition">Home</a>
-            <a href="#" className="hover:text-white transition">Services</a>
-            <a href="#" className="hover:text-white transition">Blog</a>
+            <a href="#solutions" className="hover:text-white transition">Services</a>
+            <a href="https://calendly.com/primeedgeai/30min" className="hover:text-white transition">Contact</a>
             <a href="#" className="hover:text-white transition">Careers</a>
           </nav>
   
