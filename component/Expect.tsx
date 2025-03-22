@@ -17,16 +17,16 @@ const Expectations = () => {
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <PhoneCall size={28} />
-            ~0%
+            ~100%
           </p>
-          <p className="text-black font-medium text-lg mt-2">missed calls</p>
+          <p className="text-black font-medium text-lg mt-2">calls answered </p>
         </div>
 
         {/* Card 2 */}
         <div className="bg-gray-100 rounded-2xl px-8 py-10 w-80 h-44 shadow-md flex flex-col justify-center">
           <p className="text-purple-600 text-4xl font-semibold flex items-center gap-2">
             <TrendingUp size={28} />
-            ~30 x
+            ~200%
           </p>
           <p className="text-black font-medium text-lg mt-2">boost in appointments</p>
         </div>
